@@ -27,7 +27,6 @@ export  AWSREGION="us-east-2"
 ```
 
 Baixe as dependencias do go para que o projeto funcione.
-
 ```sh
 cat requirements.txt | xargs go get
 ```
@@ -43,3 +42,7 @@ go run main.go
 - Autenticação
 - Disparo de e-mail em Massa
 - Disparo pelo WhatsApp
+
+
+100% OpenSource.
+Compartilhe o Conhecimento!
