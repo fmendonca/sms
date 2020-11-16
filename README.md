@@ -32,6 +32,10 @@ Baixe as dependencias do go para que o projeto funcione.
 cat requirements.txt | xargs go get
 ```
 
+Para iniciar o Projeto Especifique as variáveis e depois rode o seguinte comando.
+```sh
+go run main.go
+```
 
 ### RoadMap
 
@@ -39,7 +43,3 @@ cat requirements.txt | xargs go get
 - Autenticação
 - Disparo de e-mail em Massa
 - Disparo pelo WhatsApp
-
-
-100% OpenSource.
-Compartilhe o Conhecimento!
