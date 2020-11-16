@@ -5,7 +5,7 @@ Projeto desenvolvido em GoLang com Interface HTML para disparo de SMS em massa a
 
 Variaveis de Ambiente
 
-# especificar a variavel para fazer o bind na porta correta ex: 8000
+especificar a variavel para fazer o bind na porta correta ex: 8000
 export  PORT=8080
 
 # conexão para o Banco de Dados.
@@ -18,9 +18,9 @@ export	DBNAME="smsdb"
 
 # access key e region da AWS
 # Exemplo:
-export  AWSACCESSKEY="AKIA57XXXXXXXXXXX"
-export  AWSSECRETKEY="vICCNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-export  AWSREGION="us-east-2"
+´´export  AWSACCESSKEY="AKIA57XXXXXXXXXXX"
+´´export  AWSSECRETKEY="vICCNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+´´export  AWSREGION="us-east-2"
 
 
 RoadMap
