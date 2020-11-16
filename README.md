@@ -1,16 +1,16 @@
-# sms
+# SMS
 SMS Project OpenSource GoLang and AWS
 
 Projeto desenvolvido em GoLang com Interface HTML para disparo de SMS em massa através da AWS
 
 Variaveis de Ambiente
 
-especificar a variavel para fazer o bind na porta correta ex: 8000
+Especificar a variavel para fazer o bind na porta correta ex: 8000
 ```sh
 export  PORT=8080
 ```
-# conexão para o Banco de Dados.
-# Exemplo:
+#### Conexão para o Banco de Dados.
+#### Exemplo:
 ```sh
 export	DBUSER="root"
 export	DBPASS="mariadb"
@@ -18,13 +18,20 @@ export	DBHOST="tcp(192.168.86.190:3306)"
 export	DBNAME="smsdb"
 ```
 
-# access key e region da AWS
-# Exemplo:
+#### Access key e region da AWS
+#### Exemplo:
 ```sh
 export  AWSACCESSKEY="AKIA57XXXXXXXXXXX"
 export  AWSSECRETKEY="vICCNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 export  AWSREGION="us-east-2"
 ```
+
+Baixe as dependencias do go para que o projeto funcione.
+
+```sh
+cat requirements.txt | xargs go get
+```
+
 
 RoadMap
 
@@ -36,4 +43,3 @@ RoadMap
 
 100% OpenSource.
 Compartilhe o Conhecimento!
-.
