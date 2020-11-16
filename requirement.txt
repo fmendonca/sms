@@ -1,2 +1,0 @@
-github.com/aws/aws-sdk-go/
-github.com/go-sql-driver/
