@@ -3,7 +3,7 @@ SMS Project OpenSource GoLang and AWS
 
 Projeto desenvolvido em GoLang com Interface HTML para disparo de SMS em massa através da AWS
 
-Variaveis de Ambiente
+### Variaveis de Ambiente
 
 Especificar a variavel para fazer o bind na porta correta ex: 8000
 ```sh
@@ -27,13 +27,16 @@ export  AWSREGION="us-east-2"
 ```
 
 Baixe as dependencias do go para que o projeto funcione.
-
 ```sh
 cat requirements.txt | xargs go get
 ```
 
+Para iniciar o Projeto Especifique as variáveis e depois rode o seguinte comando.
+```sh
+go run main.go
+```
 
-RoadMap
+### RoadMap
 
 - Novos Provedores
 - Autenticação
