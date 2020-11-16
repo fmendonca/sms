@@ -5,35 +5,35 @@ Projeto desenvolvido em GoLang com Interface HTML para disparo de SMS em massa a
 
 ### Variaveis de Ambiente
 
-#### especificar a variavel para fazer o bind na porta correta ex: 8000
+Especificar a variavel para fazer o bind na porta correta ex: 8000
 ```sh
 export  PORT=8080
 ```
-
-# conexão para o Banco de Dados.
-# Exemplo:
+#### Conexão para o Banco de Dados.
+#### Exemplo:
 ```sh
 export	DBUSER="root"
 export	DBPASS="mariadb"
-export	DBHOST="tcp(192.168.0.10:3306)"
+export	DBHOST="tcp(192.168.86.190:3306)"
 export	DBNAME="smsdb"
 ```
 
 #### Access key e region da AWS
 #### Exemplo:
-
 ```sh
 export  AWSACCESSKEY="AKIA57XXXXXXXXXXX"
 export  AWSSECRETKEY="vICCNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 export  AWSREGION="us-east-2"
 ```
 
-#### Dependencias GoLang
+Baixe as dependencias do go para que o projeto funcione.
+
 ```sh
 cat requirements.txt | xargs go get
 ```
 
-#### RoadMap
+
+### RoadMap
 
 - Novos Provedores
 - Autenticação
