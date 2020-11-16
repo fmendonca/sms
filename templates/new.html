@@ -1,0 +1,47 @@
+{{define "New"}}
+{{template "_head"}}
+{{template "_menu"}}
+
+<div class="container">
+
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5">Nova entrada</h1>
+                <p class="lead">Insira os detalhes</p>
+            </div>
+        </div>
+        <form method="POST" action="insert">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" class="form-control" required>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" maxlength="14" name="telefone" placeholder="Ex.: +55 (11) 91234-1234" required class="form-control cel-sp-mask">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <select name="status-select" class="select3">
+                            <option value="Habilitado">habilitado</option>
+                            <option value="Desabilitado">desabilitado</option>
+                        </select>
+                   </div> 
+                </div>
+            </div>
+            <button type="submit" value="salvar" class="btn btn-success">Salvar</button>
+            <a class="btn btn-info" href="/">Voltar</a>
+        </div>
+        </form>
+
+{{template "_footer"}}
+{{end}}

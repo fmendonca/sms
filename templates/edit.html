@@ -1,0 +1,49 @@
+{{define "Edit"}}
+{{template "_head"}}
+{{template "_menu"}}
+
+<div class="container">
+
+    <body>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-5">Editando</h1>
+                <p class="lead">Insira os dados parar alterar</p>
+            </div>
+        </div>
+        <form method="POST" action="update">
+            <input type="hidden" name="id" value="{{.Id}}">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" value="{{.Nome}}" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel"  id="phone-number" placeholder="Phone Number" name="telefone" value="{{.NTelefone}}" required class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="form-group">
+                        <select name="status-select" class="select3">
+                            <option value="Habilitado">habilitado</option>
+                            <option value="Desabilitado">desabilitado</option>
+                        </select>
+                   </div> 
+                </div>
+            </div>
+
+
+            <button type="submit" value="salvar" class="btn btn-success">Atualizar</button>
+            <a class="btn btn-info" href="/">Voltar</a>
+        </div>
+        </form>
+{{template "_footer"}}
+{{end}}
