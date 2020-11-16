@@ -15,7 +15,7 @@ export  PORT=8080
 ```sh
 export	DBUSER="root"
 export	DBPASS="mariadb"
-export	DBHOST="tcp(192.168.86.190:3306)"
+export	DBHOST="tcp(192.168.0.10:3306)"
 export	DBNAME="smsdb"
 ```
 
