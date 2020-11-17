@@ -43,6 +43,9 @@ go run main.go
 - Disparo de e-mail em Massa
 - Disparo pelo WhatsApp
 
+License
+---
+MIT
 
-100% OpenSource.
-Compartilhe o Conhecimento!
+**100% OpenSource**
+**Compartilhe o Conhecimento!**
