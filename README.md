@@ -41,6 +41,9 @@ go run main.go
 - Novos Provedores
 - Autenticação
 
+License
+---
+MIT
 
 License
 ---
