@@ -47,5 +47,4 @@ License
 ---
 MIT
 
-**100% OpenSource**
-**Compartilhe o Conhecimento!**
+***Compartilhe o Conhecimento!***
