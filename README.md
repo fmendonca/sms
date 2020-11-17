@@ -3,6 +3,9 @@ SMS Project OpenSource GoLang and AWS
 
 Projeto desenvolvido em GoLang com Interface HTML para disparo de SMS em massa através da AWS
 
+
+
+
 ### Variaveis de Ambiente
 
 Especificar a variavel para fazer o bind na porta correta ex: 8000
@@ -26,6 +29,10 @@ export  AWSSECRETKEY="vICCNXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 export  AWSREGION="us-east-2"
 ```
 
+O Projeto utiliza MariaDB / MySQL para o banco, abaixo como subir o Schema da base que se encontra na folder SQL
+```sh
+mysql -u $DBUSER -p$DBPASS < SQL/scheme.sql
+```
 Baixe as dependencias do go para que o projeto funcione.
 ```sh
 cat requirements.txt | xargs go get
