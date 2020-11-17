@@ -40,8 +40,10 @@ go run main.go
 
 - Novos Provedores
 - Autenticação
-- Disparo de e-mail em Massa
-- Disparo pelo WhatsApp
+
+License
+---
+MIT
 
 License
 ---
