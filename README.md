@@ -45,8 +45,4 @@ License
 ---
 MIT
 
-License
----
-MIT
-
 ***Compartilhe o Conhecimento!***
