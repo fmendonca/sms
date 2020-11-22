@@ -35,7 +35,7 @@ mysql -u $DBUSER -p$DBPASS < SQL/scheme.sql
 ```
 Baixe as dependencias do go para que o projeto funcione.
 ```sh
-cat requirements.txt | xargs go get
+bash deps.sh
 ```
 
 Para iniciar o Projeto Especifique as variáveis e depois rode o seguinte comando.
@@ -47,6 +47,7 @@ go run main.go
 
 - Novos Provedores
 - Autenticação
+- Dockerfile(in build)
 
 License
 ---
