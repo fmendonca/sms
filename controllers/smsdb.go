@@ -68,3 +68,7 @@ func CriaMSGSMS(w http.ResponseWriter, r *http.Request) {
 	}
 	http.Redirect(w, r, "/", 301)
 }
+
+func Alive(w http.ResponseWriter, r *http.Request) {
+	w.Write([]byte("It's alive!"))
+}
