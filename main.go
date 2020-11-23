@@ -18,10 +18,10 @@ func main() {
 	routes.Rotas()
 	log.Println("Server is listening at", port)
 
-	go func() {
-		log.Println("Server is listening at 8001 /api/health")
-		http.ListenAndServe("localhost:8001", apiAlive)
-	}()
+	//	go func() {
+	log.Println("Server is listening at 8001 /api/health")
+	http.ListenAndServe(":8001", apiAlive)
+	//	}()
 
 	http.ListenAndServe(fmt.Sprintf(":%s", port), nil)
 }
