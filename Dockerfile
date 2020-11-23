@@ -10,4 +10,4 @@ RUN apk update && \
     sh /"$GOPATH"/app/deps.sh && \ 
     go build "$GOPATH"/app/main.go
 
-CMD ["app/sms"]
+CMD ["$GOPATH/app/sms"]
