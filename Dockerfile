@@ -9,4 +9,4 @@ RUN apk update && \
     chmod +x "$GOPATH"/app/deps.sh && \
     sh /"$GOPATH"/app/deps.sh
 
-CMD ["go run main.go"]
+CMD ["go", "run", "main.go"]
