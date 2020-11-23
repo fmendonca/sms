@@ -4,7 +4,7 @@ COPY . $GOPATH/app
 
 WORKDIR $GOPATH/app
 
-RUN apk update && apk upgrade && \
+RUN apk update && \
     apk add --no-cache bash git openssh
 
 RUN chmod +x $GOPATH/app/deps.sh
