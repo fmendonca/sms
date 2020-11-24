@@ -53,4 +53,6 @@ License
 ---
 MIT
 
+**Release** => 0.2
+
 ***Compartilhe o Conhecimento!***
