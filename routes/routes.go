@@ -15,4 +15,5 @@ func Rotas() {
 	http.HandleFunc("/edit", controllers.Edit)
 	http.HandleFunc("/update", controllers.Update)
 	http.HandleFunc("/sendsms", controllers.CriaMSGSMS)
+	http.HandleFunc("/api/health", controllers.Alive)
 }
