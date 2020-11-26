@@ -7,7 +7,7 @@ RUN apk update && \
     chmod +x deps.sh && \
     sh deps.sh
     
-EXPOSE 8001
+EXPOSE 80
 
 
 ENTRYPOINT [ "go","run","main.go" ]
